@@ -56,6 +56,8 @@ class ReciboController extends Controller
         return $dompdf->stream($filename);
     }
 
+
+    //Abre a tela de visualização do PDF
     public function imprimir(Request $request)
     {
         $nomeCliente = $request->input('nomeCliente');
@@ -96,8 +98,8 @@ class ReciboController extends Controller
     }
 
     //Apenas para visualização do PDF
-    public function visualizaPDF(Request $request)
+    /*public function visualizaPDF(Request $request)
     {
         return view('reciboPDF');
-    }
+    }*/
 }

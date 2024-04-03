@@ -19,4 +19,4 @@ Route::post('/download', 'App\Http\Controllers\ReciboController@download');
 
 Route::post('/imprimir', 'App\Http\Controllers\ReciboController@imprimir');
 
-Route::get('/pdf', 'App\Http\Controllers\ReciboController@visualizaPDF');
+//Route::get('/pdf', 'App\Http\Controllers\ReciboController@visualizaPDF');
